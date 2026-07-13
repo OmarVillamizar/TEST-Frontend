@@ -72,7 +72,7 @@
                       <span class="dot"></span>{{ user.activo ? 'Sí' : 'No' }}
                     </span>
                   </td>
-                  <td class="cell-fecha">{{ formatDate(user.fechaCreacion) }}</td>
+                  <td class="cell-fecha">{{ formatDate(user.createdAt) }}</td>
                   <td class="col-acciones">
                     <div class="row-actions">
                       <button type="button" class="icon-btn icon-btn--edit" (click)="openEdit(user)" aria-label="Editar usuario">
