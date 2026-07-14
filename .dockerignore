@@ -1,0 +1,31 @@
+# Deps & build output (rebuilt inside image)
+node_modules
+dist
+.angular
+
+# Version control
+.git
+.gitignore
+
+# Tests / coverage
+coverage
+*.spec.ts
+
+# Env & secrets (never bake into image)
+.env
+.env.*
+
+# IDE / editor
+.vscode
+.idea
+*.swp
+.DS_Store
+
+# Docs & meta
+README.md
+*.md
+CLAUDE.md
+
+# Docker files themselves
+Dockerfile
+.dockerignore
